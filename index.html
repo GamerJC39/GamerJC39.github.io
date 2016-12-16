@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Car quiz</title>
+<link href ="style.css" link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src ="main.js"></script>
+
+</head>
+
+<body>
+
+<h1>This is a car quiz enjoy!</h1>
+
+<p>1. Which car is the fastest in the world?</p>
+
+
+<form id = "quiz" name = "quiz">
+  <input type="radio" name="guestion1" value="Ferrari LaFerrari"> Ferrari LaFerrari<br>
+  <input type="radio" name="question1" value="McLaren P1"> Mclaren P1<br>
+  <input type="radio" name="question1" value="Bugatti Chiron"> Bugatti Chiron
+
+
+<img src="Bugatti.jpg" alt="Hint 1" style="width:750px;height:513px;"> 
+
+  
+
+
+
+<p> 2. which car is the best hybrid super car? </p>
+
+  HINT: The car is by Porsche!<br>
+  <input type="text" name="question2">  Hybrid Super Car<br>
+
+ 
+ <img src="Porsche.jpg" alt="Hint 2" style="width:450px;height:313px;"> 
+  
+
+
+<p> 3. Is there such car as a Ford Fusion
+
+  <input type="radio" name="question3" value="yes"> yes<br>
+  <input type="radio" name="question3" value="no"> no<br>
+
+  <img src="fusion.jpg" alt="Hint 3" style="width:350px;height:213px;"> 
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+</form>
+
+
+
+<div id = "after_submit">
+
+<p id = "number_correct"></p>
+
+
+
+</div>
+
+</body>
+
+</html>
